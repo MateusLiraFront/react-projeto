@@ -5,15 +5,17 @@ const TemplateExpressions = () => {
         age: 27,
         job: "Dev Front"
    }
+
+      console.log("Teste de console");
+            console.log("Teste de console2");
     return(
         <div>
             <h1> <strong> Nome: </strong> {name},
             <br/><strong>Idade: </strong>{idade}</h1>
             <p>Você atua como: {data.job}</p>
-            <p>{console.log("Teste de console")}</p>
-            {console.log("Teste de console2")}
+         
         </div>
     )
 }
 
-export default TemplateExpressions
+export default TemplateExpressions;
