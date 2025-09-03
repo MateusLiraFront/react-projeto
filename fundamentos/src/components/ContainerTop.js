@@ -6,35 +6,8 @@ const ContainerTop = () =>{
     
     return(
 
-     <div className="col bg-secondary" style={{backgroundColor: "lightblue"}}>
-      {/* <div className="row d-flex justify-content-center align-items-center text-center">
-        
-        <div className="col-auto mt-5">
-          <img
-            src={prefeituraLogo}
-            className="img"
-            alt="prefeitura logo"
-            style={{ height: '100px' }}
-          />
-        </div>
-
-        <div className="col-auto mt-5 justify-content-center text-white mb-0 fw-bold">
-          <h3 className="mb-0 fw-bold">
-            ADM<br />
-            CADASTRO CULTURAL
-          </h3>
-        </div>
-
-        <div className="col-auto mt-5">
-          <img
-            src={culturaLogo}
-            className="img"
-            alt="fundacao-cultura-logo"
-            style={{ maxHeight: '100px' }}
-          />
-        </div>
-
-      </div> */}
+     <div className="col bg-secondary" >
+     
        <form className="row needs-validation" noValidate>
         <div
             className="col d-flex justify-content-center fw-bold mt-3"

@@ -1,7 +1,7 @@
 const CampoEsquerda = () => {
 
     return (
-        <div className="col-sm-6 ms-3 mt-4 text-black">
+        <div className="col-sm-6 text-start mt-4 text-black">
 
             <div className="col-sm-12 text-black">
                 <label htmlFor="campoNome" className="form-label"> Nome Completo/Razão Social </label>
